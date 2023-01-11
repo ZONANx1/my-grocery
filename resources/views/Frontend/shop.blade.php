@@ -19,11 +19,11 @@
     </div>
 </section>
 <section class="categories">
-    <div class="container" >     
-        <div class="row" style="margin-top: 50px;">   
+    <div class="container" >
+        <div class="row" style="margin-top: 50px;">
             <div class="section-title">
                 <h2>Nearby Shop</h2>
-            </div>  
+            </div>
             <div class="categories__slider owl-carousel">
                 @foreach ($shop as $shops)
                 <div class="col-lg-3">
@@ -33,7 +33,7 @@
                 </div>
                  @endforeach
             </div>
-        </div>   
+        </div>
     </div>
 </section>
 
@@ -52,9 +52,9 @@
         <div class="row featured__filter">
             @foreach ($product as $products)
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                
+
                 <div class="featured__item">
-                    
+
                     <div class="featured__item__pic set-bg" data-setbg="{{ asset('assets/upload/productimage/'.$products->product_img)}}">
                         <ul class="featured__item__pic__hover">
                             <li><a href="{{url('product-details/'.$products->id)}}"><i class="fa fa-retweet"></i></a></li>
@@ -65,11 +65,11 @@
                         <h6><a href="#">{{$products->product_name}}</a></h6>
                         <h5>{{$products->price}}</h5>
                     </div>
-                   
-                </div> 
-               
-            </div> 
-            @endforeach 
+
+                </div>
+
+            </div>
+            @endforeach
         </div>
     </div>
 </section>

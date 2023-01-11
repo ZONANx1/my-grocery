@@ -19,7 +19,7 @@
     <div class="container" >
         <div class="row" style="margin-top: 50px;">
             <div class="section-title">
-                <h2>Nearby Shop UKM</h2>
+                <h2>Nearby Shop UKM, Bangi</h2>
             </div>
             <div class="categories__slider owl-carousel">
                 @foreach ($shop as $shops)
